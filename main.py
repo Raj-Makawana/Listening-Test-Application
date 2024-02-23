@@ -13,8 +13,6 @@ app = FastAPI()
 connect(db="ListeningAppDB", host="localhost", port=27017)
 collection_name = "name_score"
 
-private_key = "a7f8d2e0b6c4a1d9e5b2f3c8a6d0e7f2"
-
 @app.get("/")
 def home_page():
     return {"message": "Welcome to the home page"}
@@ -52,8 +50,6 @@ def get_score():
     ]
 
     return {"Test taker's Scores": test_taker_list}
-
-# Remove the /score/{test_id} endpoint as it's no longer applicable
 
 from typing import List
 
