@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listening Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Protest+Revolution&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <form id="start-form">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <button id="start-button">Start Test</button>
+    </form>
+
+    <form id="questions-form" style="display: none;">
+        <span id="user-name"></span>
+        <li>
+            <label class="Fredoka">
+                1. To be more productive, I respond to emails and instant messages while I'm speaking to people on
+                the phone.
+                <br>
+                <input type="radio" name="q1" value="Not at All" required> Not at All
+                <input type="radio" name="q1" value="Rarely"> Rarely
+                <input type="radio" name="q1" value="Sometimes"> Sometimes
+                <input type="radio" name="q1" value="Often"> Often
+                <input type="radio" name="q1" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                2. I repeat points back during a conversation to clarify my understanding of what the other person
+                is saying.
+                <br>
+                <input type="radio" name="q2" value="Not at All" required> Not at All
+                <input type="radio" name="q2" value="Rarely"> Rarely
+                <input type="radio" name="q2" value="Sometimes"> Sometimes
+                <input type="radio" name="q2" value="Often"> Often
+                <input type="radio" name="q2" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                3. When people speak to me about sensitive subjects, I make an effort to put them at ease.
+                <br>
+                <input type="radio" name="q3" value="Not at All" required> Not at All
+                <input type="radio" name="q3" value="Rarely"> Rarely
+                <input type="radio" name="q3" value="Sometimes"> Sometimes
+                <input type="radio" name="q3" value="Often"> Often
+                <input type="radio" name="q3" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                4. I feel uncomfortable with silence during conversations.
+                <br>
+                <input type="radio" name="q4" value="Not at All" required> Not at All
+                <input type="radio" name="q4" value="Rarely"> Rarely
+                <input type="radio" name="q4" value="Sometimes"> Sometimes
+                <input type="radio" name="q4" value="Often"> Often
+                <input type="radio" name="q4" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                5. As I listen, I compare the other person's viewpoint with my own.
+                <br>
+                <input type="radio" name="q5" value="Not at All" required> Not at All
+                <input type="radio" name="q5" value="Rarely"> Rarely
+                <input type="radio" name="q5" value="Sometimes"> Sometimes
+                <input type="radio" name="q5" value="Often"> Often
+                <input type="radio" name="q5" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                6. To get people to elaborate on their point, I ask open questions (ones that can't be answered with
+                "yes" or "no").
+                <br>
+                <input type="radio" name="q6" value="Not at All" required> Not at All
+                <input type="radio" name="q6" value="Rarely"> Rarely
+                <input type="radio" name="q6" value="Sometimes"> Sometimes
+                <input type="radio" name="q6" value="Often"> Often
+                <input type="radio" name="q6" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                7. When someone is speaking to me, I nod and say things like "OK" and "uh-huh" occasionally.
+                <br>
+                <input type="radio" name="q7" value="Not at All" required> Not at All
+                <input type="radio" name="q7" value="Rarely"> Rarely
+                <input type="radio" name="q7" value="Sometimes"> Sometimes
+                <input type="radio" name="q7" value="Often"> Often
+                <input type="radio" name="q7" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                8. I play "devil's advocate" to prompt responses from the other person.
+                <br>
+                <input type="radio" name="q8" value="Not at All" required> Not at All
+                <input type="radio" name="q8" value="Rarely"> Rarely
+                <input type="radio" name="q8" value="Sometimes"> Sometimes
+                <input type="radio" name="q8" value="Often"> Often
+                <input type="radio" name="q8" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                9. I catch myself asking leading questions to encourage the other person to agree with my viewpoint.
+                <br>
+                <input type="radio" name="q9" value="Not at All" required> Not at All
+                <input type="radio" name="q9" value="Rarely"> Rarely
+                <input type="radio" name="q9" value="Sometimes"> Sometimes
+                <input type="radio" name="q9" value="Often"> Often
+                <input type="radio" name="q9" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                10. I interrupt people.
+                <br>
+                <input type="radio" name="q10" value="Not at All" required> Not at All
+                <input type="radio" name="q10" value="Rarely"> Rarely
+                <input type="radio" name="q10" value="Sometimes"> Sometimes
+                <input type="radio" name="q10" value="Often"> Often
+                <input type="radio" name="q10" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                11. When people speak to me, I stay completely still so that I don't distract them.
+                <br>
+                <input type="radio" name="q11" value="Not at All" required> Not at All
+                <input type="radio" name="q11" value="Rarely"> Rarely
+                <input type="radio" name="q11" value="Sometimes"> Sometimes
+                <input type="radio" name="q11" value="Often"> Often
+                <input type="radio" name="q11" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                12. I try to read the other person's body language as I listen.
+                <br>
+                <input type="radio" name="q12" value="Not at All" required> Not at All
+                <input type="radio" name="q12" value="Rarely"> Rarely
+                <input type="radio" name="q12" value="Sometimes"> Sometimes
+                <input type="radio" name="q12" value="Often"> Often
+                <input type="radio" name="q12" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                13. If the other person is struggling to explain something, I jump in with my own suggestions.
+                <br>
+                <input type="radio" name="q13" value="Not at All" required> Not at All
+                <input type="radio" name="q13" value="Rarely"> Rarely
+                <input type="radio" name="q13" value="Sometimes"> Sometimes
+                <input type="radio" name="q13" value="Often"> Often
+                <input type="radio" name="q13" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li>
+            <label class="Fredoka">
+                14. If I'm busy, I let others talk to me as long as they're quick.
+                <br>
+                <input type="radio" name="q14" value="Not at All" required> Not at All
+                <input type="radio" name="q14" value="Rarely"> Rarely
+                <input type="radio" name="q14" value="Sometimes"> Sometimes
+                <input type="radio" name="q14" value="Often"> Often
+                <input type="radio" name="q14" value="Very Often"> Very Often
+            </label>
+            <br><br>
+        </li>
+        <li style="text-align: center;"> <!-- Center the submit button -->
+            <input type="submit" id="final-submit-button" style="display: none;">
+        </li>
+    </form>
+
+</body>
+
+</html>

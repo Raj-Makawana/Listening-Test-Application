@@ -1,0 +1,11 @@
+*.wt
+*.lock
+*.bson
+*.turtle
+WiredTiger
+journal
+diagnostic.data
+__pycache__
+
+# Virtual Environment for the project
+ListenEnv
